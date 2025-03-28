@@ -7,7 +7,7 @@ export default defineConfig({
     manifest: {
         permissions: ["tabs"],
     },
-    modules: ["@wxt-dev/module-vue"],
+    modules: ["@wxt-dev/module-react"],
     // prettier-ignore
     vite: () => <WxtViteConfig>{
         plugins: [tailwindcss()],
